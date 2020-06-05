@@ -16,17 +16,14 @@ wp-jalali is a "Full Jalali (خورشیدی - شمسی) Calendar and Persian(Far
 
 Features include:
 
-*	Transparent and configurable Jalali date conversion for posts, pages and comments
-*	Jalali Archive template tag and widget (Monthly and Daily)
-*	Jalali/Gregorian Calendar template tag and widget
-*	Jalali/Gregorian compatible permalinks
-*	Improvements to TinyMCE (Wordpress Editor)
-*	Auto conversion of some Arabic characters (ي , ك) to Persian (ی , ک) with smart search
-*   Auto conversion of Latin numbers to Persian numbers.
-*	Fully customizable through custom admin page
-*	Jalali timestamp edit in new post and new page sections
-*	Jalali dates in edit tables
-*	Support for both Iranian and Afghan month names
+* Transparent and configurable Jalali date conversion for posts, pages and comments
+* Jalali Archive template tag and widget (Monthly and Daily)
+* Jalali/Gregorian Calendar template tag and widget
+* Jalali/Gregorian compatible permalinks
+* Auto conversion of some Arabic characters (ي , ك) to Persian (ی , ک) with smart search
+* Auto conversion of Latin numbers to Persian numbers.
+* Jalali timestamp edit in new post and new page sections
+* Jalali dates in edit tables
 
 This plug-in is part of [Persian Wordpress Project](http://wp-persian.com/ "پروژه وردپرس فارسی").
 
