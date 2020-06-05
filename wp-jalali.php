@@ -119,7 +119,7 @@ final class WP_Parsidate
 
         $files = array(
             'parsidate',
-            'jalali.php',
+            'jalali',
             'general',
             'fixes-archive',
             'fixes-permalinks',

@@ -14,21 +14,6 @@ function jdate($input, $datetime = 'now', $lang = 'per') {
 	return parsidate($input, $datetime, $lang);
 }
 
-/*
- * is_jalali_leap_year
- * check year is leap
- *
- * @param mixed $year
- *
- * @return boolean
- */
-function is_jalali_leap_year($year) {
-    $bndate = bn_parsidate::getInstance();
-    $bndate = $bndate->IsLeapYear($year);
-
-    return $bndate;
-}
-
 /**
  * jalali_to_gregorian
  * convert persian datetime to gregorian datetime
@@ -39,7 +24,7 @@ function is_jalali_leap_year($year) {
  * @return datetime
  */
 function jalali_to_gregorian($input, $datetime) {
-	return gregdate($input, $datetime)
+	return gregdate($input, $datetime);
 }
 
 /*
@@ -52,6 +37,6 @@ function jalali_to_gregorian($input, $datetime) {
  *
  * @return string
  */
-function gregorian_to_jalali($input, $datetime = 'now', $lang = 'per') {
+function gregorian_to_jalali($input, $datetime = 'now', $lang = 'en') {
 	return parsidate($input, $datetime, $lang);
 }
