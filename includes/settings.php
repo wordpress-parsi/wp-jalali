@@ -23,7 +23,7 @@ function wpp_add_settings_menu()
 {
     global $wpp_settings;
 
-    if ($wpp_settings['submenu_move'] != 'disable') {
+    if (isset($wpp_settings['submenu_move']) && $wpp_settings['submenu_move'] != 'disable') {
         add_submenu_page(
             'options-general.php',
             __('Parsi Settings', 'wp-parsidate'),
