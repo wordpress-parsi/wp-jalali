@@ -29,6 +29,10 @@ function wp_parsi_set_locale($locale)
     $settings = get_option('wpp_settings');
     $user_locale = $admin_locale = $locale;
 
+    if (!isset($settings['admin_lang'])) {
+        return $locale;
+    }
+
     if ($settings['admin_lang'] == 'enable') {
         $admin_locale = "fa_IR";
     } elseif ($settings['admin_lang'] == 'disable') {
