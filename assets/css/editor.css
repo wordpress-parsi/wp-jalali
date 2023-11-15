@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;400;700&display=swap');
+
 body {
-    font-family: tahoma, sans-serif;
+    font-family: 'Vazirmatn', tahoma, sans-serif;
     font-size: 12px;
 }
 
 #tinymce {
-    font-family: tahoma, sans-serif;
+    font-family: 'Vazirmatn', tahoma, sans-serif;
     font-size: 12px;
 }
